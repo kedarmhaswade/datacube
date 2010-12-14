@@ -1,5 +1,7 @@
 #!/usr/bin/env ruby
 
+#in place editing at github is "just awesome"
+
 class DataCube
   # implements an n-dimensional data cube with each dimension having m elements
   # total number of elements is m**n, all elements are initialized in a one-dimensional array
