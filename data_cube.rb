@@ -30,6 +30,9 @@ class DataCube
     @array[to_index(iv)] = value
   end
 
+  def size
+    @array.size
+  end
   def to_s
     @array.to_s
   end
@@ -46,7 +49,8 @@ class DataCube
     mega_index
   end
 end
+
 dc = DataCube.new(3, 5)
 dc[0,1,2]=44
 puts dc[0, 1, 2]
-puts dc
+puts dc.size
